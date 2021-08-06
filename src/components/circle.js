@@ -4,7 +4,7 @@
 
 
 // export class using module.exports
-
+import {Shape} from ./src/components/shape.js
 
 const Shape = require("Shape");
 
