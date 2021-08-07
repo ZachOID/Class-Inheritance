@@ -4,12 +4,12 @@
 
 module.exports = class Shape {
     constructor(c){
-        this.color=c===undefined?"red":c;
+        this.color=c===undefined?"blue":c;
         }
-        drawShape  = ()=>{
+        drawShape(){
             console.log("draw the shape"); 
         }
-        calculateArea=()=>{
+        calculateArea(){
            console.log("area is area"); 
            return 1;
         }
