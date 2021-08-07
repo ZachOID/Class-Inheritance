@@ -4,7 +4,7 @@
 
 module.exports = class Shape {
     constructor(c){
-        this.color=c===undefined?"blue":c;
+        this.color=red;
         }
         drawShape(){
             console.log("draw the shape"); 
